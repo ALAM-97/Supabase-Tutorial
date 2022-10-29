@@ -31,7 +31,7 @@ const Home = () => {
       }
     };
     fetchSmoothies();
-  }, [orderBy]);
+  }, [orderBy, isAscending]);
 
   const handleDelete = (id) => {
     setSmoothies((prevSmoothies) => {
